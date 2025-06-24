@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Redirecting...</title>
+  <script>
+    const formA = "https://docs.google.com/forms/d/e/1FAIpQLSerNgWeZH2-kkKAerWdK4AgKMwp5Dc7Z8OleTsc47VHD4m4FQ/viewform";
+    const formB = "https://docs.google.com/forms/d/e/1FAIpQLSfzl8uO-PVy6XIQlaT9vDq0lh4rT0BjnU6eTgnuMaLZRTnQ1g/viewform";
+    const target = Math.random() < 0.5 ? formA : formB;
+    window.location.replace(target);
+  </script>
+</head>
+<body>
+  <p>Redirecting...</p>
+</body>
+</html>
